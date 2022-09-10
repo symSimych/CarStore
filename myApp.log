@@ -1,0 +1,7 @@
+2022-09-10 15:56:37,407 INFO [main] a.CarStore [CarStore.java:102] object with ID:BR953 has been removed from the list
+2022-09-10 15:56:37,416 INFO [main] a.CarStore [CarStore.java:53] field 'brand' of object with ID:AD328 has been changed
+2022-09-10 15:56:37,417 INFO [main] a.CarStore [CarStore.java:60] field 'model' of object with ID:AD328 has been changed
+2022-09-10 15:56:37,419 INFO [main] a.CarStore [CarStore.java:67] field 'color' of object with ID:AD328 has been changed
+2022-09-10 15:56:37,420 INFO [main] a.CarStore [CarStore.java:74] field 'equipment' of object with ID:AD328 has been changed
+2022-09-10 15:56:37,422 INFO [main] a.CarStore [CarStore.java:81] field 'price' of object with ID:AD328 has been changed
+2022-09-10 15:56:37,426 INFO [main] a.CarStore [CarStore.java:94] all fields of object with ID:GX721 has been changed
