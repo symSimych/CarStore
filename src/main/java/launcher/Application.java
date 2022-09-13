@@ -1,9 +1,13 @@
 package launcher;
 
 import api.CarStore;
+import com.google.gson.Gson;
 import comparator.*;
 import entity.Car;
 import entity.Equipment;
+import io.ReadFile;
+import io.WriteFile;
+import jsonparser.ParserJSON;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -97,5 +101,13 @@ public class Application {
         carStore.printByParameter(Car::getId);
         carList.sort(new CompareByID().reversed());
         carStore.printByParameter(Car::getId);
+
+        WriteFile<CarStore> writeFile = new WriteFile<>();
+        writeFile.writeDataToFile(carStore, "data.json");
+
+        List<String> list = ReadFile.getInstance().readFileFromResources("data.json");
+
+        ParserJSON<CarStore> parser = new ParserJSON<>();
+        CarStore cars = parser.parseJSON(list, CarStore.class);
     }
 }

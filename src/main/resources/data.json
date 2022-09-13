@@ -1,0 +1,43 @@
+{
+  "cars": [
+    {
+      "id": "AD328",
+      "brand": "VW",
+      "model": "Passat",
+      "color": "white",
+      "equipment": {
+        "transmission": "manual",
+        "engine": "2.0",
+        "upholstery": "fabric",
+        "driveType": "front-wheel"
+      },
+      "price": 4000.0
+    },
+    {
+      "id": "AD031",
+      "brand": "Volkswagen",
+      "model": "golf IV",
+      "color": "black",
+      "equipment": {
+        "transmission": "manual",
+        "engine": "2.0",
+        "upholstery": "fabric",
+        "driveType": "front-wheel"
+      },
+      "price": 2500.0
+    },
+    {
+      "id": "GX721",
+      "brand": "Lada",
+      "model": "2109",
+      "color": "red",
+      "equipment": {
+        "transmission": "manual",
+        "engine": "2.0",
+        "upholstery": "fabric",
+        "driveType": "front-wheel"
+      },
+      "price": 1500.0
+    }
+  ]
+}
